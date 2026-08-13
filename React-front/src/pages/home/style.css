@@ -1,0 +1,26 @@
+:root {
+    --text-color: rgb(244, 245, 255);
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(101, 54, 220);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-bg: rgb(129, 94, 220);
+    --bs-btn-active-bg: rgb(160, 140, 211);
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(35, 32, 56, 0.838);
+}
+
+.input {
+    color: var(--text-color);
+    border: 1px solid rgba(84, 80, 101, 0.937);
+    background-color: rgba(60, 56, 84, 0.937);
+}
