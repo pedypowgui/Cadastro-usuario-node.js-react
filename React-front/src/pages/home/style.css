@@ -6,6 +6,10 @@ h1 {
     color: var(--text-color);
 }
 
+span {
+    color: var(--text-color);
+}
+
 .btn-primary {
     --bs-btn-bg: rgb(101, 54, 220);
     --bs-btn-border-color: none;
@@ -14,7 +18,7 @@ h1 {
 }
 
 .card {
-    border: none;
+    width: 29rem !important;
     border-radius: 20px;
     background-color: rgba(35, 32, 56, 0.838);
 }
