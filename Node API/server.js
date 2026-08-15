@@ -1,6 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import express from 'express';
-
+import cors from 'cors';
 
 const prisma = new PrismaClient();
 // Dentro do app temos tudo oq esta dentro do express - recomendado pela documentacao do express
@@ -8,6 +8,12 @@ const app = express();
 
 // Ativando json na aplicacao
 app.use(express.json())
+
+// Permitindo receber e retornar requisicoes do front-end
+app.use(cors({
+    origin: 'http://localhost:5173'
+}))
+
 
 /**
  * Criando rota que retorna valor ao ser acessado o caminho 'users' no meu servidor
