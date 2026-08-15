@@ -1,5 +1,9 @@
 # CRUD node + react
 
+<div align="center">
+   <img src="assets/demonstracao-sistema.gif"></img>
+</div>
+
 > CRUD para estudos sobre desenvolvimento full-stack utilizando Node e React
 
 ### Tecnologias utilizadas
